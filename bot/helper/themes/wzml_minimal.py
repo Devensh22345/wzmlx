@@ -2,14 +2,14 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = "Repo"
-    ST_BN1_URL = "https://www.github.com/weebzone/WZML-X"
-    ST_BN2_NAME = "Updates"
-    ST_BN2_URL = "https://t.me/WZML_X"
+    ST_BN1_NAME = "Oᴡɴᴇʀ"
+    ST_BN1_URL = "https://t.me/QuoteDude"
+    ST_BN2_NAME = "Uᴘᴅᴀᴛᴇꜱ"
+    ST_BN2_URL = "https://t.me/BinaryQUest"
     ST_MSG = """<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
-<b>Type {help_command} to get a list of available commands</b>"""
+<b>Type {help_command} to get a list of available commands\n\nPᴏᴡᴇʀᴇᴅ ʙʏ @BinaryQuest🖤</b>"""
     ST_BOTPM = """<i>Now, This bot will send all your files and links here. Start Using ...</i>"""
-    ST_UNAUTH = """<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>"""
+    ST_UNAUTH = """<i>You Are not authorized user! Contact @QuoteDude</i>"""
     OWN_TOKEN_GENERATE = (
         """<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>"""
     )
@@ -59,7 +59,7 @@ class WZMLStyle:
 ┃ {disk_bar} {disk}%
 ┃ <b>Total Disk Read :</b> {disk_read}
 ┃ <b>Total Disk Write :</b> {disk_write}
-┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
+┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}\n\n<b>Pᴏᴡᴇʀᴇᴅ ʙʏ @BinaryQuest🖤</b>
     
     """
     SYS_STATS = """⌬ <b><i>OS SYSTEM :</i></b>
@@ -80,7 +80,7 @@ class WZMLStyle:
 ┠ <b>System Avg Load :</b> {sys_load}
 ┠ <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
 ┠ <b>Total Core(s) :</b> {total_core}
-┖ <b>Usable CPU(s) :</b> {cpu_use}
+┖ <b>Usable CPU(s) :</b> {cpu_use}\n\n<b>Pᴏᴡᴇʀᴇᴅ ʙʏ @BinaryQuest🖤</b>
     """
     REPO_STATS = """⌬ <b><i>REPO STATISTICS :</i></b>
 ┠ <b>Bot Updated :</b> {last_commit}
@@ -88,7 +88,7 @@ class WZMLStyle:
 ┠ <b>Latest Version :</b> {lat_version}
 ┖ <b>Last ChangeLog :</b> {commit_details}
 
-⌬ <b>REMARKS :</b> <code>{remarks}</code>
+⌬ <b>REMARKS :</b> <code>{remarks}</code>\n\n<b>Pᴏᴡᴇʀᴇᴅ ʙʏ @BinaryQuest🖤</b>
     """
     BOT_LIMITS = """⌬ <b><i>BOT LIMITATIONS :</i></b>
 ┠ <b>Direct Limit :</b> {DL} GB
@@ -103,7 +103,7 @@ class WZMLStyle:
 ┎ <b>Token Validity :</b> {TV}
 ┠ <b>User Time Limit :</b> {UTI} / task
 ┠ <b>User Parallel Tasks :</b> {UT}
-┖ <b>Bot Parallel Tasks :</b> {BT}
+┖ <b>Bot Parallel Tasks :</b> {BT}\n\n<b>Pᴏᴡᴇʀᴇᴅ ʙʏ @BinaryQuest🖤</b>
     """
     # ---------------------
 
@@ -116,7 +116,7 @@ class WZMLStyle:
 ┠ <b>Date:</b> {date}
 ┠ <b>Time:</b> {time}
 ┠ <b>TimeZone:</b> {timz}
-┖ <b>Version:</b> {version}"""
+┖ <b>Version:</b> {version}\n\n<b>Pᴏᴡᴇʀᴇᴅ ʙʏ @BinaryQuest🖤</b>"""
     RESTARTED = """⌬ <b><i>Bot Restarted!</i></b>"""
     # ---------------------
 
@@ -149,9 +149,9 @@ class WZMLStyle:
     L_TOTAL_FILES = "┠ <b>Total Files: </b>{Files}\n"
     L_CORRUPTED_FILES = "┠ <b>Corrupted Files: </b>{Corrupt}\n"
     L_CC = "┖ <b>By: </b>{Tag}\n\n"
-    PM_BOT_MSG = "➲ <b><i>File(s) have been Sent above</i></b>"
-    L_BOT_MSG = "➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>"
-    L_LL_MSG = "➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n"
+    PM_BOT_MSG = "➲ <b><i>File(s) have been Sent above</i></b>\n\n<b>Pᴏᴡᴇʀᴇᴅ ʙʏ @BinaryQuest🖤</b>"
+    L_BOT_MSG = "➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>\n\n<b>Pᴏᴡᴇʀᴇᴅ ʙʏ @BinaryQuest🖤</b>"
+    L_LL_MSG = "➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n\n\n<b>Pᴏᴡᴇʀᴇᴅ ʙʏ @BinaryQuest🖤</b>"
 
     # ----- MIRROR -------
     M_TYPE = "┠ <b>Type: </b>{Mimetype}\n"
@@ -159,7 +159,7 @@ class WZMLStyle:
     TOTAL_FILES = "┠ <b>Files: </b>{Files}\n"
     RCPATH = "┠ <b>Path: </b><code>{RCpath}</code>\n"
     M_CC = "┖ <b>By: </b>{Tag}\n\n"
-    M_BOT_MSG = "➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>"
+    M_BOT_MSG = "➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>\n\n<b>Pᴏᴡᴇʀᴇᴅ ʙʏ @BinaryQuest🖤</b>"
     # ----- BUTTONS -------
     CLOUD_LINK = "☁️ Cloud Link"
     SAVE_MSG = "📨 Save Message"
@@ -218,7 +218,7 @@ class WZMLStyle:
     Ram = "\n┠ <b>RAM:</b> {ram}% | "
     uptime = "<b>UPTIME:</b> {uptime}"
     DL = "\n┖ <b>DL:</b> {DL}/s | "
-    UL = "<b>UL:</b> {UL}/s"
+    UL = "<b>UL:</b> {UL}/s\n\n<b>Pᴏᴡᴇʀᴇᴅ ʙʏ @BinaryQuest🖤</b>"
 
     ###--------BUTTONS-------
     PREVIOUS = "⫷"
